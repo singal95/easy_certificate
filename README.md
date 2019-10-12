@@ -14,9 +14,6 @@
 * 自动读取寻找好的背景图片，设置高，宽，一页的数目
 * 在背景图片上添加示例文本框， 在`.docx`中可以修改 [当前还不支持]
 
-### 效果图
-![](images/input.png)
-![](images/output.png)
 
 ### 使用方法
 #### 安装
@@ -36,5 +33,9 @@ python run.py --number 3 --margin 0.5
 
 #### Windows可执行文件的使用
 另外也提供了`run.exe`文件用于不会python的小伙伴使用这个工具，方法类似与上面，只是现在换成了双击执行`.exe`文件
+
+### 效果图
+![](images/input.png)
+![](images/output.png)
 
 > 官方文档 https://python-docx.readthedocs.io/en/latest/
