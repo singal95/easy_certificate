@@ -8,7 +8,7 @@
 
 有了想法，那就马上开始动手操作吧
 
-网上搜罗了[pyhon-docx](https://python-docx.readthedocs.io/en/latest/)的信息以及一些tutorial，感觉操作不是很复杂，可以一步一步来。
+网上搜罗了[python-docx](https://python-docx.readthedocs.io/en/latest/)的信息以及一些tutorial，感觉操作不是很复杂，可以一步一步来。
 
 ### 功能： 
 * 自动读取寻找好的背景图片，设置高，宽，一页的数目
