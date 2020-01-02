@@ -36,7 +36,7 @@ def run(img_per_row=IMAGES_PER_ROW, margin=MARGIN):
     # load images
     image_files = load_images()
 
-    if image_files == None:
+    if image_files is None:
         print("此目录下无图片，请放置图片后重启此程序！")
         time.sleep(5)
         raise IOError
@@ -81,6 +81,7 @@ def run(img_per_row=IMAGES_PER_ROW, margin=MARGIN):
     #     document.save(docx_name)
     docx_name = tid_maker() + '.docx'
     document.save(docx_name)
+
 
 if __name__ == "__main__":
     args = arg_parser()
