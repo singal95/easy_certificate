@@ -27,7 +27,7 @@ pip install -r requirements.txt
 首先需要把需要生成排列的图片放置到[run.py](run.py)同级目录下，然后就可以通过以下命令
 
 ```shell
-python run.py --number 3 --margin 0.5
+python run.py --rows 2 --collumns 1 --margin 0.5 --orientation vertical~
 ```
 生成每页3张，页边距为0.5cm的word文件
 
